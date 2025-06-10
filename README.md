@@ -23,7 +23,11 @@ do usuário.
 Tecnologias Utilizadas
 
 ● React (biblioteca para construção da interface) 
+
 ● Styled Components (para estilização com CSS-in-JS) 
+
 ● LocalStorage (armazenamento local dos dados) 
+
 ● JavaScript/ES6+ (linguagem principal da aplicação) 
+
 ● HTML5 e CSS3 (estrutura e estilo básicos) 
