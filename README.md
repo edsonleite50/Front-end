@@ -10,13 +10,18 @@ produtividade e a organização do usuário.
 Funcionalidades Implementadas
 
 ● Cadastro de tarefas com título, categoria, prioridade e status. 
+
 ● Edição e exclusão de tarefas já cadastradas. 
+
 ● Visualização das tarefas com informações detalhadas: título, categoria, data de 
 criação, status e prioridade. 
+
 ● Suporte para categorias personalizadas, permitindo que o usuário insira categorias 
 próprias. 
+
 ● Armazenamento dos dados localmente usando LocalStorage para persistência entre 
 sessões. 
+
 ● Interface responsiva e estilizada com Styled Components para melhor experiência 
 do usuário.
 
