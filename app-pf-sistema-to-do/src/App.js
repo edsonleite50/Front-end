@@ -1,23 +1,3 @@
-#index.html
-
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Sistema de gerenciamento de tarefas" />
-    <title>App PF Sistema To-Do</title>
-  </head>
-  <body>
-    <noscript>Você precisa habilitar o JavaScript para rodar essa aplicação.</noscript>
-    <div id="root"></div>
-  </body>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</html>
-
-App.js
-
 import React, { useState, useEffect } from "react";
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 
@@ -320,27 +300,3 @@ const App = () => {
 };
 
 export default App;
-
-#index.css
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-#index.js
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-
-
-
